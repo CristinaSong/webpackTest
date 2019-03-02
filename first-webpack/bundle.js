@@ -65,9 +65,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var name = __webpack_require__(1);
+
+document.getElementById('app').textContent='hello~'+name;
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-document.getElementById('app').textContent='hello~';
+module.exports="ninghao.net";
+
 
 /***/ })
 /******/ ]);
