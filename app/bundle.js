@@ -735,8 +735,7 @@ module.exports = function (css) {
 "use strict";
 
 
-module.exports = "It works111111 from runoob2.js."; // let a = (i)=>i*i;
-// module.exports = a;
+module.exports = "It works111111 from runoob2.js.";
 
 /***/ })
 /******/ ]);
