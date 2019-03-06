@@ -68,8 +68,12 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(1);
-// require("./style.css");//执行webpack runoob1.js bundle.js --module-bind 'css=style-loader!css-loader'
+"use strict";
+
+
+__webpack_require__(1); // require("./style.css");//执行webpack runoob1.js bundle.js --module-bind 'css=style-loader!css-loader'
+
+
 document.write(__webpack_require__(6));
 
 /***/ }),
@@ -726,9 +730,13 @@ module.exports = function (css) {
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "It works111111 from runoob2.js.";
+"use strict";
+
+
+module.exports = "It works111111 from runoob2.js."; // let a = (i)=>i*i;
+// module.exports = a;
 
 /***/ })
 /******/ ]);
