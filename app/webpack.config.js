@@ -1,8 +1,8 @@
 var webpack = require('webpack');
 
 module.exports = {
-    entry: "./runoob1.js",
-    output: {
+    entry: "./runoob1.js",//项目入口文件
+    output: {//编译好的输出文件
         path: __dirname,//和入口文件相同的路径
         filename: "bundle.js"
     },
@@ -12,7 +12,7 @@ module.exports = {
     //         { test: /\.css$/, loader: "style-loader!css-loader" }
     //     ]
     // },
-    module: {
+    module: {//定义编译规则，那种类型的文件对应哪个loader
         rules: [
           {
             test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"
@@ -20,7 +20,8 @@ module.exports = {
           }
         ]
     },
-    plugins:[
+    plugins:[//webpack插件
         new webpack.BannerPlugin('菜鸟教程 webpack 实例')
     ]
+
 };

@@ -75,6 +75,8 @@ __webpack_require__(1); // require("./style.css");//执行webpack runoob1.js bun
 
 
 document.write(__webpack_require__(6));
+var input = document.createElement('input');
+document.getElementById('app').append(input);
 
 /***/ }),
 /* 1 */
@@ -132,7 +134,7 @@ if(false) {
 
 exports = module.exports = __webpack_require__(3)(false);
 // Module
-exports.push([module.i, "body {\n    background: green;\n}", ""]);
+exports.push([module.i, "body {\n    background: blue;\n}", ""]);
 
 
 
@@ -735,7 +737,7 @@ module.exports = function (css) {
 "use strict";
 
 
-module.exports = "It works111111 from runoob2.js.";
+module.exports = "It works555 from runoob2.js.";
 
 /***/ })
 /******/ ]);
